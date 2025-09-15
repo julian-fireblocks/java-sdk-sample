@@ -1,0 +1,34 @@
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Maven/Gradle build output
+target/
+
+# Ignore sensitive files
+src/main/resources/fireblocks_private.key
+
+# Ignore environment files
+.env
+
+# Ignore war/jar files
+*.war
+*.jar
+
+# Ignore backup files
+*~
+*.swp
+*.bak
+
